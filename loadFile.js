@@ -107,11 +107,3 @@ function parseDoc(doc){
  }
  return parsedDoc;
 }
-
-function loading(obj,index){
- if(index == null) index = 0;
- var lstr = "--/--/".substring(index,index+4);
- $(obj).html(lstr+" Loading "+lstr);
- var timer = setTimeout(function(){loading(obj,(index+1)%3);},500);
- return timer;
-}

@@ -1,4 +1,14 @@
 //preview.js
+//this file makes use of code from loadFile.js
+
+/**
+ *  @var NUM_PREVIEWS	constant for when the number of previews in preview text is updated
+ *  @var preview_index	the index of the current preview to display
+ *  @var preview	the fileRequest object that loads the previews asynchronously from the page
+ *  @var p		holds outputted data from preview
+ *  @var motion		holds the setTimeout object to be cleared if in need of interrupting cycle
+ *  @var inMotion	boolean to lock functions if currently switching between 
+ **/
 $(preLoad);
 var NUM_PREVIEWS = 8;
 var preview_index = Math.floor(Math.random()*NUM_PREVIEWS);
@@ -6,8 +16,14 @@ var preview = new fileRequest();
 var p;
 var motion, inMotion=false;
 
+/**
+ * preLoad() is triggered with the document body's 'load' event
+ * to begin the intialization of the preview widget on the index
+ * page; preLoad loads the back and forth controls
+ *   
+ **/
 function preLoad(){
- //we have JS enabled! clear the bg image :P
+ //We have JS enabled! Clear the background image and prepare for the preview display
  $("#contDisp").css({"background":"none"});
 
  //load-in prev/next buttons and preview box
@@ -28,14 +44,20 @@ function preLoad(){
  preview.makeRequest("resources/previews.txt"); 
 }
 
-
-
+/**
+ * loadControl() loads the forward and backwards buttons for
+ * the previews in the header
+ **/
 function loadControl(){
   $(".button").fadeTo(1000,1);
   $("#prv").bind("click",manualPrev);
   $("#nxt").bind("click",manualNext);
 }
 
+/**
+ * switchToNext() is a self-repeating function that transitions
+ * from the current preview to the next preview
+ **/
 function switchToNext(){
   if(inMotion){return;}
   var i = preview_index;
@@ -50,7 +72,7 @@ function switchToNext(){
    $("#preview>#local").html(locStr);
    $("#preview>#eng").html(engStr);
    $("#preview>#info").html(infoStr);
-   //swap the background picture
+   //Swap the background picture
    swapBackground(p["d"][i][3],function(){
     $("#preview").fadeTo(500,1,function(){
      inMotion = false;
@@ -61,21 +83,38 @@ function switchToNext(){
   });
 }
 
-function swapBackground(swapTo,callback){
+/**
+ * swapBackground swaps the div holding the background image 
+ * of the current the preview to a new one that has the image
+ * of the upcoming preview
+ * @arg	swapSrc		is the name of the background image of the 
+ *			upcoming preview
+ * @arg callback	is the function to callback after the
+ *			background images is swapped
+ **/
+function swapBackground(swapSrc,callback){
   $("#bg").attr("id","oldBg");
-  $("#contDisp").prepend("<div id=\"bg\" class=\"bg\" style=\"background-image:url('resources/bg/"+swapTo+".jpg');\"></div>");
+  $("#contDisp").prepend("<div id=\"bg\" class=\"bg\" style=\"background-image:url('resources/bg/"+swapSrc+".jpg');\"></div>");
   $("#oldBg").fadeTo(1000,0,function(){
    $("#oldBg").remove();
    callback();
   });
 }
 
+/**
+ * manualNext() interrupts the natural cycle and changes the 
+ * preview screen from the current to the next preview
+ **/
 function manualNext(){
  if(inMotion){return;}
   clearTimeout(motion);
   switchToNext();
 }
 
+/**
+ * manualPrev() interrupts the natural cycle and changes the 
+ * preview screen from the current to the previous preview
+ **/
 function manualPrev(){
  if(inMotion){return;}
   clearTimeout(motion);

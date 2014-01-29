@@ -63,6 +63,10 @@ function getDateStr(langDat){
  return dateStr;
 }
 
+/**
+ * fadeAndReplace() is a function that fades the current date
+ * and replaces with its equivalent in a different language
+ **/
 function fadeAndReplace(){
  currLang = (currLang+skipPrime)%langArr.length;
  var e = langArr[currLang];
@@ -71,6 +75,9 @@ function fadeAndReplace(){
  }).fadeTo(1000,1);
 }
 
+/**
+ * cycle() takes care of switching the language every so often
+ **/
 function cycle(){
  fadeAndReplace();
  setTimeout(cycle,10000);

@@ -2,39 +2,49 @@
 |l|Kyyneleistä ja hyvästeistä||niin taas yksi kuolevaisten piiristä toiseen katoaa\nkaikuu itku surevaisten, kantaa halki tyventen vesien\nkaikkialla vaietaan – ei meressä yhtä aaltoa\nkauniin yön kirkkaimmista tähdistä sinua etsien||Lisää||Suomi
 |d|http://joom.ag/F60X/p6||Karlong Chan||Spring 2013||plane
 
-|e|Eighteen||From the bay, a light fog rolled in. The tower, the gate – all white beneath a thin veil of the e summer mist. He didn’t feel a day past his childhood, yet there it was – ordained by law and seared on his license: the impression of adulthood.||Turkish
-|l|Osiemnaście||Znad zatoki, pełzna lekka mgła. Wieża, brama – wszystko bieli pod cieńką zasłoną dżdżu letnego. Nie czuł dnia ponad dzieciństwo, jednak było – rządziło się prawem i wypaliło się na jego prawie jażdy: odcisk jego dorosłości. ||Devamı||Türkçe||
-|d|http://joom.ag/mSDX/p22||Kelsey Moty||Fall 2013||sky
-
-|e|Rain||Every dawn I dream\nArmies of murdered notes\nStream down fatigued faces\nCome together in whirlpools,\nAnd all I want is NOT to see\nThese windows pounded into night||Russian
-|l|Дождь||Мне каждый рассвет снится\nРасстреляных нот - роты\nУстало текут по лицам,\nСливаются в водовороты\nИ хочется НЕ - видеть\nУтоптанных в ночь окон||Больше||Русский
-|d|http://joom.ag/R30X/p14||Tatyana Shmygol||Spring 2005||rainy
-
-|e|i can't see||i am trying to believe\nand trying to be naive.\nbut i know what is happening\nand i know that it isn't going to be good.\ni know that you aren't looking\nto make me happy||Italian
-|l|non posso vederlo||cerco di credere\ne cerco di essere ingenuo.\nma so che mi fai\ne so che non sera bene.\nso che non stai cercando||di farmi felice||Altro||Italiano
-|d|http://joom.ag/F60X/p10||Tatiana August-Schmidt||Spring 2013
-||citylight
-
-|e|The Tortoise||There is a tortise in my throat.\nI feel bad, but I can not stop the small tortoise.\nWhen I was scared, she took a walk.\nWhen I cried, she did not stop.||French
-|l|La tortue||Il y a une tortue dans ma gorge.\nJe me sens mal, mais je ne peux pas arrêter la petite tortue.\nQuand j'avais peur, elle s'est promenée.\nQuand je pleurais, elle n'a pas arrêté.||Suite||Français
-|d|http://joom.ag/mSDX/p26||Shelby Nacino||Fall 2013||desertsun
+|e|A Black Vagabond||With magnanimity of vagabond\n He pushes down the bank\n\nSee!\nThis is\nA little waterfall||Korean
+|l|검은 유랑자||유랑자의 배포로\n독을 넘어뜨린다\n\n이것 봐\n작은\n폭포다||더 읽다||한국말
+|d|http://joom.ag/U0cX/p14||Seoyoung Yoon||Spring 2014||lonely
 
 |e|The Drummer||Odes singing in a distant realm,\nDrums beating on the battlefield.\nTime turns his ruthful head,\nCasts a deep eye on the land\nYou ground your lean figure\nIn midst of confronting lions||Mandarin Chinese
 |l|战鼓||远处歌声飘扬，战鼓敲响。\n岁月一甩经年的头颅，\n用深沉的眼光，\n注视年轮的战场。\n你瘦削身形，\n立于两军之前||阅读更多||中文(官话)
 |d|http://joom.ag/F60X/p8||Yunru Du||Spring 2013
 ||mountains
 
+|e|Eighteen||From the bay, a light fog rolled in. The tower, the gate – all white beneath a thin veil of the e summer mist. He didn’t feel a day past his childhood, yet there it was – ordained by law and seared on his license: the impression of adulthood.||Turkish
+|l|Osiemnaście||Znad zatoki, pełzna lekka mgła. Wieża, brama – wszystko bieli pod cieńką zasłoną dżdżu letnego. Nie czuł dnia ponad dzieciństwo, jednak było – rządziło się prawem i wypaliło się na jego prawie jażdy: odcisk jego dorosłości. ||Devamı||Türkçe||
+|d|http://joom.ag/mSDX/p22||Kelsey Moty||Fall 2013||sky
+
+|e|i can't see||i am trying to believe\nand trying to be naive.\nbut i know what is happening\nand i know that it isn't going to be good.\ni know that you aren't looking\nto make me happy||Italian
+|l|non posso vederlo||cerco di credere\ne cerco di essere ingenuo.\nma so che mi fai\ne so che non sera bene.\nso che non stai cercando||di farmi felice||Altro||Italiano
+|d|http://joom.ag/F60X/p10||Tatiana August-Schmidt||Spring 2013
+||citylight
+
+|e|Inappropriate Spouse|| (A television host is interviewing a man and a woman who are deeply in love.)\n Neema: How are you guys? \n Abdul: Great Thanks. How are you?\n Neema: Great. So how did you guys meet? \nAbdul: At the market ||Swahili
+|l|Mchumba Haramu||(Mtangazaji wa habari kwa jina Neema anawahoji wachumba wawili wanaopendana)\nNeema: Hamjambo\nAbdul: Hamjambo \nNeema:Habari gani \nAbdul na Rukia: Nzuri sana Habari gani?\n Neema: Nzuri sana. Nyinyi wawili mlikutana namna gani?\nAbdul:Sokoni||Kusoma Zaidi||Kiswahili
+|d|http://joom.ag/U0cX/p10||David Kyeu||Spring 2014||dance
+
+|e|The Tortoise||There is a tortise in my throat.\nI feel bad, but I can not stop the small tortoise.\nWhen I was scared, she took a walk.\nWhen I cried, she did not stop.||French
+|l|La tortue||Il y a une tortue dans ma gorge.\nJe me sens mal, mais je ne peux pas arrêter la petite tortue.\nQuand j'avais peur, elle s'est promenée.\nQuand je pleurais, elle n'a pas arrêté.||Suite||Français
+|d|http://joom.ag/mSDX/p26||Shelby Nacino||Fall 2013||desertsun
+
+
 |e|That World||Hey, morning dew, can you convey to her?\nI want to hold the cold time that binds her\nBecause I cannot do things like\nstopping time\nUntil the sun wakes up; tremblingly, I want to give her my warmth||Japanese
 |l|あの世界||ねぇ、朝の露、彼女に伝えてくれないか？\n僕、彼女を縛ってる冷たい時間を抱きしめたいんだ\n時間を止めるなんて出来ないから\n太陽が起きるまで、震えたままで、僕の温もりをあげたい||全文を読む||日本語
 |d|http://joom.ag/f40X/p19||Andry Jong||Spring 2009||sunset
+
+|e|Rain||Every dawn I dream\nArmies of murdered notes\nStream down fatigued faces\nCome together in whirlpools,\nAnd all I want is NOT to see\nThese windows pounded into night||Russian
+|l|Дождь||Мне каждый рассвет снится\nРасстреляных нот - роты\nУстало текут по лицам,\nСливаются в водовороты\nИ хочется НЕ - видеть\nУтоптанных в ночь окон||Больше||Русский
+|d|http://joom.ag/R30X/p14||Tatyana Shmygol||Spring 2005||rainy
+
+|e|The Ring That Stopped Time||"The train ends here" said a voice over the loud speaker. Timo Reiter opened his heavy eyes as he awoke from a deep sleep. He stood up quickly from his seat and exited the train. He turned his head toward the sky and felt something cold and wet on his warm face||German
+|l|Der Ring, der die Zeit anhält||Der Zug endet hier, sagte eine Stimmme über die Gegensprechanlage. Als Timo Reiter von seinem Tiefschlaf aufwachte, öffnete er langsam seine schweren Augendeckel. Er stand schnell von seinem Sitzplatz auf und stieg aus dem Zug.Er hob seinen Kopf zu dem Himmel und fühlte etwas Kaltes und Nasses auf seinem warmen Gesicht||Mehr lesen||Deutsch
+|d|http://joom.ag/U0cX/p6||Jessica Bermudez||Spring 2014||city
 
 |e|Winds||I wonder how it would feel\n if the wind were stirring my branches?\nFree\nOr tied down by roots?\nWould I envy the birds?||Spanish
 |l|Vientos||¿Cómo me sentría \nsi el viento agitara mis ramas? \n¿Libre \nO atao por las raíces?\n¿Me envidiarían los pájaros?||Más||Español
 |d|http://joom.ag/mSDX/p8||Samuel Diener||Fall 2013||desert
 
 
-|e|
-|l|
-|d|
 
 |e|

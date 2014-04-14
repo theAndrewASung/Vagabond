@@ -7,8 +7,9 @@ include('header.php');
 Interested in submitting a piece of work to Vagabond Multilingual Journal? Check out the criteria below!
 <br />
 <br />
-<span style="color:red;">The deadline to submit for the Spring 2014 Issue is Friday, March 14, 2014.</span>
-<br /> Submissions sent in after March 14 will be directed to our next issue of Vagabond!
+<b style="color:green;">The Spring 2014 Issue has been published!</b>
+<br />
+<br /> Submissions currently sent in will be directed to the Fall 2014 issue of Vagabond!
 <br />
 <br />
 <div class='heading'>what we're looking for</div>

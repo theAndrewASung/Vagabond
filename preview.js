@@ -1,6 +1,6 @@
 //preview.js
 $(preLoad);
-var NUM_PREVIEWS = 8;
+var NUM_PREVIEWS = 10;
 var preview_index = Math.floor(Math.random()*NUM_PREVIEWS);
 var preview = new fileRequest();
 var p;

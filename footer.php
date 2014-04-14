@@ -24,7 +24,7 @@
   <footer class="noselect">
     <div class="centered">
       <div style="float:left;">
-        <span style="font-size:8pt"><i>Last updated January 21, 2014</i></span>
+        <span style="font-size:8pt"><i>Last updated April 12, 2014</i></span>
         <br />
         <b> Vagabond Multilingual Journal 2002-2014</b>
         <br />

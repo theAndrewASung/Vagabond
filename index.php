@@ -23,12 +23,12 @@ include('header.php');
   <b>Interested?</b> Learn more about us here at this site or e-mail us at <u>theberkeleyvagabond@gmail.com</u> for more information. 
   <br /><br />
   <div class='heading'> announcements & updates </div>
-  The <b>Fall 2013 Issue</b> has been published! Check out our <a href="issues.php" style="color:green;">issue page</a> to read our newest publication!
+  The <b>Spring 2014</b> is now out! Check it out on our <a href="issues.php">Issues Page</a> and be sure to swing by our table at Cal Day, April 12, 2014!
   <br /><br />
-  <div id="news">
+<!--  <div id="news">
   <div><b><u> Older News: </u></b></div><br class="break" />
   <span>4/20</span> <div>The Spring 2013 Issue is now out! Check it out on our <a href="issues.php">Issues Page</a>!</div><br class="break" />
   <span>3/1</span> <div>Submissions for the Spring 2013 Issue are now closed! Thank you to all who submitted works.</div><br class="break" />
-  <span>1/10</span> <div>We are now accepting submissions for the Spring 2013 Issue! All written, graphic, and photographic submissions are due Friday, March 1! Check out the submissions page for more info.</div>
+  <span>1/10</span> <div>We are now accepting submissions for the Spring 2013 Issue! All written, graphic, and photographic submissions are due Friday, March 1! Check out the submissions page for more info.</div>-->
   <br class="break" />
 <?php include('footer.php');?>

@@ -1,0 +1,76 @@
+<!-- Vagabond Multilingual Journal -->
+
+<html ng-app="main">
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.js"></script>
+ <script src="controllers.js"></script>
+ <script src="main.js"></script>
+ <link rel="stylesheet" src="style.css">
+ <title>Vagabond Multilingual Journal @ Cal</title>
+ 
+</head>
+<body>
+ <header>
+  <div id="title">
+   <div class="centered">
+    <img id="logo" src="resources/logo.png">
+   </div>
+  </div>
+  <div id='contDisp' style='background-image:url(\"resources/bg/$page.jpg\")'>
+   stuff. whee.
+  </div>
+  <nav id="navbar" class="centered" ng-repeat="option in menu">
+        <a href='index.php' class='menu'>home</a>
+      | <a href='issues.php' class='menu'>issues</a>
+      | <a href='submissions.php' class='menu'>submissions</a>
+      | <a href='staff.php' class='menu'>staff</a>
+      | <a href='FAQ.php' class='menu'>FAQ</a>
+  </nav>
+ </header>
+
+ <div id="contArea" class="centered">
+  <section id="contMain" ng-view></section>
+  <aside id="side" class="noselect">
+   <div id="dateBox" ng-control="dateCtrl">
+    <div>
+     <div>Welcome!</div>
+      <?php echo date("l, F j, Y");?>
+     <br />
+     <span>
+      :English::English:
+     </span>
+    </div>
+   </div>
+   <br />
+   <div>
+    <a href="http://www.facebook.com/theberkeleyvagabond">
+    <img src="resources/fb.png" style="float:left;width:50px;height:50px;margin-right:10px;"> 
+     Find us on <br />facebook!
+    </a>
+   </div>
+  </aside>
+  <br class="break" />
+ </div>
+
+ <footer ng-control="footerCtrl">
+  <div class="centered">
+   <div style="float:left;">
+    <span style="font-size:8pt"><i>Last updated {{lastUpdated}}</i></span>
+    <br />
+    <b> Vagabond Multilingual Journal 2002-2014</b>
+    <br />
+    <span style="font-size:8pt">A proud member of the UC Berkeley Community</span>
+    <br />
+   </div>
+   <div style="float:right;text-align:right;">
+    <a href="http://www.ocf.berkeley.edu">
+     <img src="http://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8dark.png" alt="Hosted by the OCF" width="98" height="39" style="border:0" />
+    </a>
+   </div>
+   <br class="break" />
+  </div>
+ </footer>
+
+</body>
+</html>

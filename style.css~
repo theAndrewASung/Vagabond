@@ -150,7 +150,6 @@ footer{
   color:#ffffff;
   height:100%;
   padding: 0px 10px;
-  white-space: pre;
 }
 #preview>div{
   margin:10px 0px;

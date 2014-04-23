@@ -2,75 +2,88 @@
 
 <html ng-app="main">
 <head>
- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.js"></script>
- <script src="controllers.js"></script>
- <script src="main.js"></script>
- <link rel="stylesheet" src="style.css">
- <title>Vagabond Multilingual Journal @ Cal</title>
- 
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="controllers.js"></script>
+  <script src="main.js"></script>
+  <script src="header.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Vagabond Multilingual Journal @ Cal</title>
 </head>
 <body>
- <header>
-  <div id="title">
-   <div class="centered">
-    <img id="logo" src="resources/logo.png">
-   </div>
-  </div>
-  <div id='contDisp' style='background-image:url(\"resources/bg/$page.jpg\")'>
-   stuff. whee.
-  </div>
-  <nav id="navbar" class="centered" ng-repeat="option in menu">
-        <a href='index.php' class='menu'>home</a>
-      | <a href='issues.php' class='menu'>issues</a>
-      | <a href='submissions.php' class='menu'>submissions</a>
-      | <a href='staff.php' class='menu'>staff</a>
-      | <a href='FAQ.php' class='menu'>FAQ</a>
-  </nav>
- </header>
-
- <div id="contArea" class="centered">
-  <section id="contMain" ng-view></section>
-  <aside id="side" class="noselect">
-   <div id="dateBox" ng-control="dateCtrl">
-    <div>
-     <div>Welcome!</div>
-      <?php echo date("l, F j, Y");?>
-     <br />
-     <span>
-      :English::English:
-     </span>
+  <header ng-controller="headerCtrl">
+    <div id="logoHolder">
+      <div class="centered">
+        <img id="logo" src="resources/logo.png">
+      </div>
     </div>
-   </div>
-   <br />
-   <div>
-    <a href="http://www.facebook.com/theberkeleyvagabond">
-    <img src="resources/fb.png" style="float:left;width:50px;height:50px;margin-right:10px;"> 
-     Find us on <br />facebook!
-    </a>
-   </div>
-  </aside>
-  <br class="break" />
- </div>
+    <div id="headerDisplay">
+      <div ng-repeat="item in menu" class="frame deadFrame" id="{{item.page}}" style="background-image:url('resources/bg/{{item.bgimg}}.jpg')"></div>
+      <div ng-repeat="p in previews" class="frame" id="p{{$index}}" style="z-index:10;opacity:1">
+        <div id="preview">
+        <div class="local">
+          <span>{{p.l[0]}}</span>
+          <br />
+          {{p.l[1]}}
+          <br />
+          <a href="{{p.d[0]}}">{{p.l[2]}}...</a>
+        </div>
+        <div class="eng">
+          <span>{{p.e[0]}}</span>
+          <br />
+          {{p.e[1]}}
+          <br />
+          <a href="{{p.d[0]}}">Read More...</a>
+        </div>
+        <div Class="info">
+        <b>{{p.d[1]}}::{{p.d[2]}}</b>
+        <br />
+        <i>{{p.l[3]}}::{{p.e[2]}}</i>
+        </div>
+        </div>
+      </div>
+      <div id="prv" class="button"><span>&lt;</span></div>
+      <div id="nxt" class="button"><span>&gt;</span></div>
+    </div>
+    <nav class="centered">
+      :<a ng-repeat="item in menu" href="#{{item.route}}">:{{item.page}}:</a>:
+    </nav>
+  </header>
 
- <footer ng-control="footerCtrl">
-  <div class="centered">
-   <div style="float:left;">
-    <span style="font-size:8pt"><i>Last updated {{lastUpdated}}</i></span>
-    <br />
-    <b> Vagabond Multilingual Journal 2002-2014</b>
-    <br />
-    <span style="font-size:8pt">A proud member of the UC Berkeley Community</span>
-    <br />
-   </div>
-   <div style="float:right;text-align:right;">
-    <a href="http://www.ocf.berkeley.edu">
-     <img src="http://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8dark.png" alt="Hosted by the OCF" width="98" height="39" style="border:0" />
-    </a>
-   </div>
-   <br class="break" />
+  <div id="contArea" class="centered">
+    <section id="contMain" ng-view></section>
+    <aside id="side" class="noselect">
+      <div id="dateBox" ng-control="dateCtrl"></div>
+      <br />
+      <div>
+        <a href="http://www.facebook.com/theberkeleyvagabond">
+          <img src="resources/fb.png" style="float:left;width:50px;height:50px;margin-right:10px;"> 
+          Find us on <br />facebook!
+        </a>
+      </div>
+    </aside>
+    <br class="break" />
   </div>
- </footer>
+
+  <footer ng-controller="footerCtrl">
+    <div class="centered">
+      <div style="float:left;">
+        <span style="font-size:8pt"><i>Last updated on {{lastUpdated}}</i></span>
+        <br />
+        <b> Vagabond Multilingual Journal 2002-2014</b>
+        <br />
+        <span style="font-size:8pt">A proud member of the UC Berkeley Community</span>
+        <br />
+      </div>
+      <div style="float:right;text-align:right;">
+        <a href="http://www.ocf.berkeley.edu">
+        <img src="http://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8dark.png" alt="Hosted by the OCF" width="98" height="39" style="border:0" />
+        </a>
+      </div>
+      <br class="break" />
+    </div>
+  </footer>
 
 </body>
 </html>
